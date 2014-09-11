@@ -1,0 +1,87 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #DDD;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border-radius: 10px;
+  border: 1px solid #BBB;
+  background-color: white;
+  padding-bottom: 4.5rem;
+}
+
+.fig {
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+.caption {
+  font-family: serif;
+  position: relative;
+  bottom: 4rem;
+  font-style: italic;
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+  padding: 0.5rem 1rem 0.5rem;
+}
+
+.main {
+  margin: -2.5rem 0 0;
+  padding: 0 1rem;
+}
+
+.third {
+  width: 33.33%;
+  float: left;
+}
+
+.third p {
+  line-height: 0.5rem;
+  margin-left: 5%;
+}
+
+.smaller {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 0.75rem;
+  line-height: 0.5rem;
+  margin-left: 5%;
+}
+
+.borderleft {
+  border-left: 1px solid grey;
+}
